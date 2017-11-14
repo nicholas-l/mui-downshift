@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { List as VirtualList, InfiniteLoader, AutoSizer } from 'react-virtualized';
 import { Popper } from 'react-popper';
-import Portal from 'react-travel';
+import { Portal } from 'react-portal';
 import { ListItem } from 'material-ui/List';
 import Paper from 'material-ui/Paper';
 import zIndex from 'material-ui/styles/zIndex';
